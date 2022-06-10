@@ -1,0 +1,21 @@
+docs_list_title: Navigation
+docs:
+  - title: Home
+    url: /
+    
+  - title: Services
+    subfolderitems:
+      - title: Coaching
+        url: /executive.html
+
+      - title: HR Consulting
+        url: /hr.html
+
+      - title: Legal Consulting
+        url: /legal.html 
+  - title: About
+    url: /about.html
+
+  - title: Blog
+    url: /blog.html
+  

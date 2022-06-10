@@ -1,0 +1,174 @@
+:root {
+  --red: #c83737;
+  --white: #ffffff;
+  --black: #000000;
+  --banner-low: rgba(244, 244, 244, 0.8);
+  --banner-low2: rgba(244, 244, 244, 0.99);
+  --banner-history: rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  background: var(--red);
+}
+
+.navbar-nav > .active > a {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.nav-link,
+.navbar-brand {
+  color: var(--white);
+  cursor: pointer;
+}
+.nav-link {
+  background-color: var(--red);
+}
+
+.dropdown-menu > .active > a {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.dropdown-menu {
+  background-color: var(--red);
+}
+.dropdown-menu .dropdown-item{
+  color: var(--white);
+}
+.dropdown-menu .dropdown-item:hover{
+  background-color: var(--white);
+  color: var(--red);
+}
+.nav-link:hover {
+  background-color: var(--white);
+  color: var(--red);
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+#home_banner {
+  margin-top: 4rem;
+  
+  margin-bottom: 4rem;
+}
+.home-mid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  border: 3px solid var(--red);
+  
+}
+.desk-img {
+  display: block;
+}
+
+.mobile-img {
+  display: none !important;
+}
+@media screen and (max-width: 768px) {
+  .desk-img {
+    display: none !important;
+  }
+  .mobile-img {
+    display: block !important;
+  }
+}
+
+.footer {
+  background-color: var(--red);
+  padding: 2em;
+  margin-top:auto;
+}
+
+.footer h5 {
+
+  color: var(--white);
+  text-align: center;
+}
+
+.footer li {
+  color: var(--white);
+  list-style-type: none;
+  text-align: center;
+  padding: 0.2rem;
+
+}
+
+.footer ul {
+  padding: 2rem;
+}
+
+.footer p {
+
+  color: var(--white);
+  text-align: center;
+  padding: 2rem;
+}
+.footer hr {
+  width: 70%;
+  height: 0.3rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--white);
+  border: 0 none;
+}
+#cards{
+ 
+  justify-content: center;
+  
+}
+#cards .card{
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  box-shadow: 0 0 15px var(--red);
+  text-align: center;
+  width: 90%;
+}
+@media screen and (max-width: 768px) {
+  #cards .card{
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    box-shadow: 0 0 15px var(--red);
+    text-align: center;
+    width: 60%;
+  }
+}
+
+.coaching h1{
+  color:var(--red);
+  font-family: 'Poor Story', cursive;
+}
+.coaching h3,h5{
+  color:var(--black);
+  font-family: 'Poor Story', cursive;
+}
+.coaching .frame{
+    width: 300px;
+    height: 250px;
+    border: 3px solid var(--red);
+    background: var(--black);
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 15px 10px;
+  
+}
+
+.coaching img {
+  width: 100%;
+  height: 100%;
+}
