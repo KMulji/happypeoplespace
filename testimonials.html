@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<section
+  class="section-medium section-arrow--bottom-center section-arrow-primary-color bg-primary"
+>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 text-white text-center">
+        <h2 class="section-title">What Others Say About Us</h2>
+        <p class="section-sub-title">
+          We are  passionate about everything we do.
+          <br />
+          use Happy People Space Today to find the best people for your needs.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section-primary t-bordered">
+  <div class="container-fluid">
+    <div class="row testimonial-three testimonial-three--col-three">
+        {% for member in site.testimonials %}  
+            <div class="col-md-4 testimonial-three-col">
+                <div class="testimonial-inner">
+                <div class="testimonial-image" itemprop="image">
+                    <img
+                    width="180"
+                    height="180"
+                    src="{{ member.image }}"
+                    />
+                </div>
+                <div class="testimonial-content">
+                    <p>
+                        {{ member.testimonial }}
+                    </p>
+                </div>
+                <div class="testimonial-meta">
+                    <strong class="testimonial-name" itemprop="name"
+                    >{{member.name}}</strong
+                    >
+                    <span class="testimonial-job-title" itemprop="jobTitle">Product : {{member.service}}</span> 
+                </div>
+                </div>
+                    </div>
+                {% endfor %}
+  </div>
+</section>

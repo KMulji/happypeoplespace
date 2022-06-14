@@ -3,18 +3,15 @@ docs:
   - title: Home
     url: /
     
-  - title: Services
+  - title: Products
     subfolderitems:
       - title: Coaching
         url: /executive.html
 
       - title: HR Consulting
         url: /hr.html
-
-      - title: Legal Consulting
-        url: /legal.html 
-  - title: About
-    url: /about.html
+  - title: Testimonials
+    url: /testimonials.html
 
   - title: Blog
     url: /blog.html

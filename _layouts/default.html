@@ -43,8 +43,8 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          {% for item in site.data.navigation.docs %} {% if item.title ==
-          "Services" %}
+          {% for item in site.data.navigation.docs %} 
+          {% if item.title == "Products" %}
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
@@ -54,7 +54,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Services
+              Products
             </a>
             <ul
               class="dropdown-menu"
@@ -70,7 +70,7 @@
               {% endfor %}
             </ul>
           </li>
-          {% endif %} {% if item.title != "Services" %}
+          {% endif %} {% if item.title != "Products" %}
           <li class="{% if item.url == page.url %}active{% endif %}">
             <a class="nav-link" href="{{site.baseurl}}{{ item.url }}"
               >{{ item.title }}</a

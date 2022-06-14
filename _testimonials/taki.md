@@ -1,0 +1,6 @@
+---
+name:   Sakina Taki 
+image: https://png.pngitem.com/pimgs/s/669-6694696_silhouette-homo-sapiens-management-person-generic-profile-photo.png
+service: Coaching
+testimonial: The positive intelligence program was an eye opener and life changing experience. Before I embarked on this journey, it was very difficult to think from a neutral point of view. Overthinking was another issue that this program helped me get rid of and further taught me how to convert my negative thoughts into positive thinking. Decision making became easier as I learnt how to clear my mind, accept failure and also worked on taking it easy, one step-at-a time which is difficult as an overachiever. I did not know what to expect from the course but I wanted to learn techniques that would assist me in the long run on how to control my thinking and that is exactly what the program did. I appreciated the effort my coach took on a weekly basis to ensure a smooth transition from one phase or activity to another. She ensured that I wasnt feeling overwhelmed and even in the weeks that I did, she gave me time to realize and self-reflect and this made me feel that I did not have to rush into doing anything. All in all, this program is a MUST for those who want to master their thoughts and shift their way of thinking. 
+---
