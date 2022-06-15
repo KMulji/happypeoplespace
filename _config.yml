@@ -58,3 +58,4 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 baseurl: "/happypeoplespace"
+url: http://kmulji.github.io
