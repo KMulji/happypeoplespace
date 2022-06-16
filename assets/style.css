@@ -657,7 +657,7 @@ img {
 
 .hr_services .list-group-item{
   border-color: var(--red);
-  text-align: center;
+  
 }
 .hr_services .exec_img img{
   text-align: center;
