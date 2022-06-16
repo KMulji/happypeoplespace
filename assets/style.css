@@ -148,53 +148,7 @@
   }
 }
 
-.coaching h1{
-  color:var(--red);
-  font-family: 'Kdam Thmor Pro', sans-serif;
-}
-.coaching p{
-  color:var(--black);
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-}
-.coaching .frame{
-    width: 300px;
-    height: 250px;
-    border: 3px solid var(--red);
-    background: var(--white);
-    margin: auto;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    padding: 15px 10px;
-  
-}
-.coaching .frame2{
-  width: 400px;
-  height: 350px;
-  border: 3px solid var(--red);
-  background: var(--white);
-  margin: auto;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  padding: 15px 10px;
 
-}
-.coaching li{
-  color:var(--black);
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-}
-.coaching .list-group-item{
-  border-color: var(--red);
-}
-
-.coaching img {
-  width: 100%;
-  height: 100%;
-}
-.coaching-end h1{
-  text-align: center;
-}
 
 #blogs .card{
   border: 2px solid var(--black);
@@ -323,7 +277,7 @@ section {
 }
 
 .testimonial-two blockquote p:after {
-  font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 54px;
     color: #0cb4ce;
     content: "”";
@@ -654,7 +608,7 @@ section {
 }
 img {
     max-width: 100%;
-    height: auto;
+    height:auto;
 }
 
 .hr_header {
@@ -685,7 +639,7 @@ img {
   
 }
 .hr_services .card{
-  border: 2px solid var(--blue);
+  border: 2px solid var(--red);
 }
 .hr_services .card-body {
   padding: 1em;
@@ -693,12 +647,20 @@ img {
 }
 .hr_services h1{
   color: var(--black);
+  font-family: 'Kdam Thmor Pro', sans-serif;
 }
 .hr_services p{
   color: var(--black);
   font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.hr_services img{
+.hr_services .list-group-item{
+  border-color: var(--red);
+  text-align: center;
+}
+.hr_services .exec_img img{
+  text-align: center;
   margin-top: 3rem;
+  
 }
