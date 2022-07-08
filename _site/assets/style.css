@@ -124,6 +124,24 @@
   background-color: var(--white);
   border: 0 none;
 }
+.footer a:link {
+  color: white;
+}
+
+/* visited link */
+.footer a:visited {
+  color:white ;
+}
+
+/* mouse over link */
+.footer a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+.footer a:active {
+  color: white;
+}
 #cards{
  
   justify-content: center;
